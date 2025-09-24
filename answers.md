@@ -1,0 +1,13 @@
+# 🧩 Part C – Short Answer Responses
+
+## Question 1: If you only had 200 labeled replies, how would you improve the model without collecting thousands more?
+
+With only 200 labeled samples, I would implement several data augmentation and transfer learning strategies. First, I'd use **data augmentation techniques** like paraphrasing with language models, synonym replacement, and back-translation to artificially expand the training set. Second, I'd leverage **pre-trained embeddings** (Word2Vec, GloVe) or **transformer models** (DistilBERT, RoBERTa) that already understand language semantics, requiring less training data for fine-tuning. Third, I'd employ **few-shot learning techniques** and **active learning** to strategically select the most informative samples for manual labeling, maximizing the impact of each labeled example.
+
+## Question 2: How would you ensure your reply classifier doesn't produce biased or unsafe outputs in production?
+
+To prevent biased or unsafe outputs, I would implement a multi-layered approach combining **bias detection, monitoring, and mitigation strategies**. First, I'd analyze the training data for demographic, linguistic, or contextual biases and use techniques like **adversarial debiasing** or **fairness-aware machine learning** during model training. Second, I'd establish **continuous monitoring systems** that track model predictions across different user segments and flag unusual patterns or potential discrimination. Third, I'd implement **human-in-the-loop validation** for edge cases and maintain **audit trails** of all predictions, ensuring transparency and accountability while regularly retraining the model with more diverse and representative data.
+
+## Question 3: Suppose you want to generate personalized cold email openers using an LLM. What prompt design strategies would you use to keep outputs relevant and non-generic?
+
+For personalized cold email generation, I would use **context-rich prompt engineering** with specific constraints and examples. The strategy would include: (1) **Structured prompts** that incorporate recipient-specific information (company, role, recent news, mutual connections), (2) **Few-shot prompting** with high-quality examples showing the desired tone and personalization level, and (3) **Constraint-based instructions** that explicitly prohibit generic phrases and require specific references to the recipient's business or industry. I'd also implement **template frameworks** with placeholders for dynamic content insertion and use **iterative refinement** techniques where the model generates multiple variants and selects the most personalized option based on relevance scoring.
