@@ -5,6 +5,36 @@ A machine learning web application that classifies email replies as **positive**
 ## 🚀 Live Demo
 
 **Try the app live:** [https://huggingface.co/spaces/Sazzz02/SWARA_AI](https://huggingface.co/spaces/Sazzz02/SWARA_AI)
+## 🎥 Video Demonstration
+
+**Watch the complete ML app walkthrough:** [SvaraAI Reply Classifier - Full Demo & Tutorial](https://youtu.be/kqxEYmepbxI?si=P-TPb9KzrKKGO1nx)
+
+In this comprehensive video demonstration, I showcase the entire SvaraAI Reply Classifier system in action:
+
+### What You'll See:
+- **Live Web App Demo**: Real-time classification of email replies using the Hugging Face Spaces interface
+- **Model Performance Comparison**: Side-by-side testing of Logistic Regression vs LightGBM models
+- **Interactive UI Walkthrough**: Complete tour of the dark-themed interface with probability visualizations
+- **Practical Examples**: Testing various reply types (positive, negative, neutral) with confidence scoring
+- **Behind-the-Scenes**: Quick overview of the Google Colab training process and model architecture
+- **Production Insights**: Discussion of why Logistic Regression was chosen for deployment
+
+### Key Highlights:
+- Real-time text preprocessing and TF-IDF vectorization
+- Dynamic probability bar visualizations showing classification confidence
+- Model switching functionality demonstrating both trained algorithms
+- Error handling and edge case scenarios
+- Performance metrics explanation (98.59% accuracy achieved)
+
+### Perfect For:
+- ML practitioners interested in text classification deployments
+- Students learning about NLP pipeline implementation
+- Anyone curious about modern web-based ML applications
+- Developers exploring Gradio and Hugging Face Spaces
+
+*Watch time: [Duration] | Created with: Python, Scikit-learn, LightGBM, Gradio*
+
+---
 
 ## 📋 Project Overview
 
