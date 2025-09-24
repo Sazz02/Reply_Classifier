@@ -1,0 +1,6 @@
+gradio>=3.34
+scikit-learn>=1.0
+joblib
+lightgbm
+pandas
+numpy
